@@ -87,4 +87,6 @@ return [
         15,
     ]),
 
+    'id_card_number_length' => 10,
+
 ];

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StorePawnRequest;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
@@ -33,9 +34,9 @@ class PawnsController
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StorePawnRequest $request)
     {
-        //
+        dd('TODO');
     }
 
     /**
